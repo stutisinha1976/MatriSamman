@@ -108,7 +108,7 @@ function Content() {
         </div>
 
         <motion.h1
-          className="text-2xl md:text-6xl font-bold bg-gradient-to-r from-white to-gray-200 bg-clip-text text-transparent mt-[1px]"
+          className="text-2xl md:text-6xl font-bold bg-gradient-to-r from-white to-gray-200 bg-clip-text text-white mt-[1px]"
           initial={{ x: -40, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 0.6, duration: 1 }}
