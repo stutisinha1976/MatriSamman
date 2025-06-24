@@ -32,7 +32,7 @@ function Gallery() {
   };
 
   return (
-    <div className="min-h-screen text-[#5a0404] font-eagle flex flex-col items-center justify-center px-6">
+    <div className="min-h-screen text-red-900 font-eagle flex flex-col items-center justify-center px-6">
       
       {/* Heading with Foot Images */}
       <div className="flex items-center justify-center gap-4 ">

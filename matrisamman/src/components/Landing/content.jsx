@@ -82,7 +82,7 @@ function Content() {
           transition={{ delay: 0.2, duration: 0.8 }}
         >
           Rotary Club of Bengal Presidency <br/>
-          <p className='text-[#5a0404] italic'>presents</p>
+          <p className='text-red-900 italic'>presents</p>
         </motion.h2>
 
         <div className="relative mb-[2px] -ml-2 flex justify-center items-center">

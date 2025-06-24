@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center px-6 text-[#5a0404] font-eagle text-center">
+    <div className="min-h-screen flex flex-col items-center justify-center px-6 text-red-900 font-eagle text-center">
       
       {/* Heading with Eyes */}
       <div className="relative flex flex-col items-center mb-4">
