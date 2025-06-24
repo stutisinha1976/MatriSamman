@@ -32,7 +32,7 @@ function Content() {
         <motion.img
   src="/big_chand.png"
   alt="Big Chand Right"
-  className="w-40 md:w-80 translate-x-[-70px] md:translate-x-0"
+  className="w-30 md:w-80 translate-x-[-70px] md:translate-x-0"
   initial={{ y: -100, opacity: 0 }}
   animate={{ y: 0, opacity: 1 }}
   transition={{ duration: 1, delay: 0.3 }}
@@ -53,7 +53,7 @@ function Content() {
         <motion.img
           src="/big_chand.png"
           alt="Big Chand Right"
-          className="w-40 md:w-80 translate-x-[70px] md:translate-x-0"
+          className="w-30 md:w-80 translate-x-[70px] md:translate-x-0"
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 0.3 }}
