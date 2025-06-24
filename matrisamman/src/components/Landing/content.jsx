@@ -76,7 +76,7 @@ function Content() {
         transition={{ duration: 1.2, ease: 'easeOut' }}
       >
         <motion.h2
-          className="text-xl md:text-2xl mb-[2px] text-white"
+          className="text-xl md:text-2xl mb-[2px] text-white absolute -top-28 left-1/2  -translate-x-1/2 text-center"
           initial={{ y: -20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.8 }}
