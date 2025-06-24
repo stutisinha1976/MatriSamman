@@ -4,14 +4,15 @@ function Gallery() {
   const images = Array.from({ length: 9 }, (_, i) => `/gall${i + 1}.jpg`);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [visibleCount, setVisibleCount] = useState(4);
+  const [loadedImages, setLoadedImages] = useState(Array(images.length).fill(false));
 
-  // Determine how many images to show based on screen width
+  // Update visible image count based on screen size
   useEffect(() => {
     const updateVisibleCount = () => {
       const width = window.innerWidth;
-      if (width < 640) setVisibleCount(1);       // Mobile
-      else if (width < 1024) setVisibleCount(2); // Tablet
-      else setVisibleCount(4);                   // Desktop
+      if (width < 640) setVisibleCount(1);
+      else if (width < 1024) setVisibleCount(2);
+      else setVisibleCount(4);
     };
 
     updateVisibleCount();
@@ -28,22 +29,33 @@ function Gallery() {
   };
 
   const getVisibleImages = () => {
-    return Array.from({ length: visibleCount }, (_, i) => images[(currentIndex + i) % images.length]);
+    return Array.from({ length: visibleCount }, (_, i) => {
+      const index = (currentIndex + i) % images.length;
+      return { src: images[index], index };
+    });
+  };
+
+  const handleImageLoad = (index) => {
+    setLoadedImages((prev) => {
+      const updated = [...prev];
+      updated[index] = true;
+      return updated;
+    });
   };
 
   return (
     <div className="min-h-screen text-red-900 font-eagle flex flex-col items-center justify-center px-6">
       
-      {/* Heading with Foot Images */}
-      <div className="flex items-center justify-center gap-4 ">
+      {/* Heading */}
+      <div className="flex items-center justify-center gap-4">
         <img src="/foot.png" alt="Foot Left" className="w-12 md:w-20 rotate-[25deg]" />
         <h2 className="text-3xl md:text-4xl font-bold text-center">Matri Samman Gallery</h2>
         <img src="/foot.png" alt="Foot Right" className="w-12 md:w-20 -scale-x-100 -rotate-[25deg]" />
       </div>
 
-      {/* Underline */}
+      {/* Underline Image */}
       <div className="w-62 md:w-100 mb-4">
-        <img src="/imageb.png" alt="Underline" className="w-100 flex justify-center" />
+        <img src="/imageb.png" alt="Underline" className="mx-auto" />
       </div>
 
       {/* Carousel */}
@@ -56,15 +68,22 @@ function Gallery() {
         </button>
 
         <div className="flex overflow-hidden gap-6 px-10">
-          {getVisibleImages().map((src, index) => (
+          {getVisibleImages().map(({ src, index }) => (
             <div
               key={index}
-              className="w-full sm:w-1/2 lg:w-1/4 aspect-square rounded-lg overflow-hidden shadow-lg flex-shrink-0"
+              className="w-full sm:w-1/2 lg:w-1/4 aspect-square rounded-lg overflow-hidden shadow-lg flex-shrink-0 relative"
             >
+              {!loadedImages[index] && (
+                <div className="absolute inset-0 bg-white/10 animate-pulse rounded-lg border border-white/20 z-0" />
+              )}
               <img
                 src={src}
                 alt={`Gallery ${index + 1}`}
-                className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                loading="lazy"
+                onLoad={() => handleImageLoad(index)}
+                className={`w-full h-full object-cover transition-transform duration-300 hover:scale-105 rounded-lg ${
+                  loadedImages[index] ? 'opacity-100' : 'opacity-0'
+                }`}
               />
             </div>
           ))}
