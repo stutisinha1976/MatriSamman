@@ -23,7 +23,7 @@ function Footer() {
         {/* Column 2: Contact List */}
         <div className="space-y-3">
           <p>Soumodip Adhikary<br /><span className="text-white">(+91 8584974241)</span></p>
-          <p>Roshani Sen<br /><span className="text-white">(+91 8910745256)</span></p>
+          <p>Roshnai Sen<br /><span className="text-white">(+91 8910745256)</span></p>
           <p>Sohom Kumar Sen<br /><span className="text-white">(+91 9874645979)</span></p>
           <p>Rajdeep Mondal<br /><span className="text-white">(+91 9163285869)</span></p>
         </div>

@@ -30,13 +30,14 @@ function Content() {
       {/* Top-Left Chand */}
       <div className="absolute top-0 left-10 flex items-start gap-1 z-0">
         <motion.img
-          src="/big_chand.png"
-          alt="Big Chand Left"
-          className="w-40 md:w-80"
-          initial={{ y: -100, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 1, delay: 0.3 }}
-        />
+  src="/big_chand.png"
+  alt="Big Chand Right"
+  className="w-40 md:w-80 translate-x-[-70px] md:translate-x-0"
+  initial={{ y: -100, opacity: 0 }}
+  animate={{ y: 0, opacity: 1 }}
+  transition={{ duration: 1, delay: 0.3 }}
+/>
+
         <motion.img
           src="/small_chand.png"
           alt="Small Chand Right of Left"
@@ -52,7 +53,7 @@ function Content() {
         <motion.img
           src="/big_chand.png"
           alt="Big Chand Right"
-          className="w-40 md:w-80"
+          className="w-40 md:w-80 translate-x-[70px] md:translate-x-0"
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 0.3 }}

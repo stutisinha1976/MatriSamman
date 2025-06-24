@@ -8,8 +8,8 @@ function Awards() {
       style={{ backgroundImage: "url('/bg2.png')" }}
     >
       <Nav />
-      <div className="flex items-center justify-center h-[calc(100vh-4rem)] text-6xl">
-        Coming Soon
+      <div className="flex items-center justify-center text-center h-[calc(100vh-5rem)] px-4">
+        <h1 className="text-4xl md:text-6xl">Coming Soon</h1>
       </div>
     </div>
   );

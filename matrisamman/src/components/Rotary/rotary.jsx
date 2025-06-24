@@ -8,8 +8,8 @@ function Rotary() {
       style={{ backgroundImage: "url('/bg2.png')" }}
     >
       <Nav />
-      <div className="flex items-center justify-center h-[calc(100vh-4rem)] text-6xl">
-        Coming Soon
+      <div className="flex items-center justify-center min-h-[calc(100vh-80px)] px-4 text-center">
+        <h1 className="text-4xl md:text-6xl">Coming Soon</h1>
       </div>
     </div>
   );
