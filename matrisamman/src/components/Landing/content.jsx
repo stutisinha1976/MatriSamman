@@ -100,7 +100,7 @@ function Content() {
           <motion.img
             src="/maa.png"
             alt="Durga Maa"
-            className="w-60 md:w-80 relative z-10"
+            className="w-60 md:w-80 relative z-10 ml-4"
             initial={{ x: 100, opacity: 0 }}
             animate={{ x: -10, opacity: 1 }}
             transition={{ delay: 0.4, duration: 1 }}

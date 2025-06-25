@@ -22,10 +22,10 @@ function Footer() {
 
         {/* Column 2: Contact List */}
         <div className="space-y-3">
-          <p>Soumodip Adhikary<br /><span className="text-white">(+91 8584974241)</span></p>
-          <p>Roshnai Sen<br /><span className="text-white">(+91 8910745256)</span></p>
-          <p>Sohom Kumar Sen<br /><span className="text-white">(+91 9874645979)</span></p>
-          <p>Rajdeep Mondal<br /><span className="text-white">(+91 9163285869)</span></p>
+          <p>Soumodip Adhikary<br /><span className="text-white font-mono">(+91 8584974241)</span></p>
+          <p>Roshnai Sen<br /><span className="text-white font-mono">(+91 8910745256)</span></p>
+          <p>Sohom Kumar Sen<br /><span className="text-white font-mono">(+91 9874645979)</span></p>
+          <p>Rajdeep Mondal<br /><span className="text-white font-mono">(+91 9163285869)</span></p>
         </div>
 
         {/* Column 3: With Regards + Mail + Facebook */}
@@ -33,7 +33,7 @@ function Footer() {
           <div className="italic text-center lg:text-left">
             <p className="font-bold">With regards,<br />Rtn. Sirsanya Bandopadhyay</p>
             <p>President, R.Y. 2025-2026</p>
-            <p className="text-white">(+91 98306 64245)</p>
+            <p className="text-white font-mono">(+91 98306 64245)</p>
           </div>
 
           <div className="flex items-center gap-2 justify-center lg:justify-start">
