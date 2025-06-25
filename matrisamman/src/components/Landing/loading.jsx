@@ -6,7 +6,7 @@ function Loading() {
       <img
         src="/logo2.png"
         alt="Matri Samman Logo"
-        className="w-32 md:w-100 animate-pulse"
+        className="w-32 md:w-48 animate-pulse"
       />
     </div>
   );
