@@ -1,6 +1,6 @@
 import React from 'react';
 import { Mail } from 'lucide-react';
-import { FaFacebook } from 'react-icons/fa';
+import { FaFacebook, FaInstagram } from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -10,7 +10,6 @@ function Footer() {
       <img src="/eyes.png" alt="Eyes" className="w-20 mx-auto mb-2" />
       <h2 className="text-lg font-bold tracking-wider uppercase">For Any Queries</h2>
       <img src="/imageb.png" alt="Underline" className="w-100 mx-auto mb-4" />
-
 
       {/* Responsive Columns */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto text-sm md:text-base text-center lg:text-left items-start">
@@ -28,7 +27,7 @@ function Footer() {
           <p>Rajdeep Mondal<br /><span className="text-white font-mono">(+91 9163285869)</span></p>
         </div>
 
-        {/* Column 3: With Regards + Mail + Facebook */}
+        {/* Column 3: With Regards + Mail + Socials */}
         <div className="flex flex-col gap-4 items-center lg:items-start">
           <div className="italic text-center lg:text-left">
             <p className="font-bold">With regards,<br />Rtn. Sirsanya Bandopadhyay</p>
@@ -50,6 +49,18 @@ function Footer() {
               className="text-xs underline text-[#e6d7e6]"
             >
               facebook.com/rctMatriSamman
+            </a>
+          </div>
+
+          <div className="flex items-center gap-2 justify-center lg:justify-start">
+            <FaInstagram className="w-5 h-5 text-[#e6d7e6]" />
+            <a
+              href="https://www.instagram.com/durgapujomatrisamman?igsh=MTlvNmlldGlnNDB2ZA=="
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs underline text-[#e6d7e6]"
+            >
+              instagram.com/durgapujomatrisamman
             </a>
           </div>
         </div>
