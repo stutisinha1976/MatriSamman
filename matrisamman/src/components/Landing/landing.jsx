@@ -4,10 +4,11 @@ import Content from './content';
 import About from './about';
 import Gallery from './gallery';
 import Footer from './footer';
-import Loading from './loading'; // ✅ Correct import
+import Loading from './loading';
+import Messages from './Messages'; // ✅ Import Messages component
 
 function Landing() {
-  const [isLoading, setIsLoading] = useState(true); // ⏳ Initial loading
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => setIsLoading(false), 2000);
@@ -15,7 +16,7 @@ function Landing() {
   }, []);
 
   if (isLoading) {
-    return <Loading />; // ✅ Show this first
+    return <Loading />;
   }
 
   return (
@@ -28,18 +29,20 @@ function Landing() {
         backgroundPosition: 'center top',
       }}
     >
+      {/* Background watermark */}
       <div
-  className="fixed inset-0 z-0 opacity-10 bg-center bg-no-repeat"
-  style={{
-    backgroundImage: `url("/logo2.png")`,
-    backgroundSize: '80vw', // Default size
-  }}
-/>
+        className="fixed inset-0 z-0 opacity-10 bg-center bg-no-repeat"
+        style={{
+          backgroundImage: `url("/logo2.png")`,
+          backgroundSize: '80vw',
+        }}
+      />
 
       <div className="relative z-10">
         <Nav />
         <Content />
         <About />
+        <Messages /> {/* ✅ Added Messages here */}
         <Gallery />
         <Footer />
       </div>
