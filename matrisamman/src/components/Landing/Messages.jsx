@@ -104,14 +104,14 @@ Matri Samman 2025`
                   <h3 className="text-base font-bold  mb-2 leading-tight">
                     {msg.name}
                   </h3>
-                  <p className="text-sm text-orange-200 font-medium leading-relaxed">
+                  <p className="text-sm text-orange-200 font-thin leading-relaxed">
                     {msg.title}
                   </p>
                 </div>
 
                 {/* Message Text - Scrollable */}
                 <div className="flex-grow overflow-hidden">
-                  <div className="text-sm leading-relaxed text-[#5a0404] whitespace-pre-line overflow-y-auto max-h-48 pr-2 custom-scrollbar ">
+                  <div className="text-sm leading-relaxed text-[#5a0404] font-semibold whitespace-pre-line overflow-y-auto max-h-48 pr-2 custom-scrollbar ">
                     {msg.text}
                   </div>
                 </div>
