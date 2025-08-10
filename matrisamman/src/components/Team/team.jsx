@@ -212,7 +212,7 @@ function Team() {
       members: [
         {
           name: 'Soumajit Sett',
-          role: 'Member',
+          role: 'Lead',
           image: 'Soumajit.jpg',
           socials: [
             { type: 'instagram', href: 'https://instagram.com/' },
