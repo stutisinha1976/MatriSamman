@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@tabler/icons-react": "^3.34.1",
+    "swiper": "^11.2.10"
+  }
+}
