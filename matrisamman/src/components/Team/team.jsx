@@ -168,7 +168,7 @@ function Team() {
         {
           name: 'Anitej Mukhopadhyay ',
           role: 'Member',
-          image: 'Anitej.png',
+          image: 'Anitej.jpg',
           socials: [
             { type: 'instagram', href: 'https://www.instagram.com/anitej.mukhopadhyay?igsh=NnRrYjU1NGprMG9p' },
             { type: 'linkedin', href: 'https://www.linkedin.com/in/anitej-mukhopadhyay-43b144304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' }
