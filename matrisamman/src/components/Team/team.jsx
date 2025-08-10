@@ -7,7 +7,7 @@ function Team() {
     {
       name: 'Rtn. Sirsanya Bandopadhyay',
       role: 'President',
-      image: 'Sirsanya.jpg',
+      image: 'sirsanya.jpg',
       socials: [
         { type: 'instagram', href: 'https://instagram.com/' },
         { type: 'facebook', href: 'https://facebook.com/' },
@@ -17,7 +17,7 @@ function Team() {
     {
       name: 'Rtn. Arka Kr. Nag',
       role: 'Chairperson',
-      image: 'Arka.jpg',
+      image: 'arka.jpg',
       socials: [
         { type: 'instagram', href: 'https://instagram.com/' },
         { type: 'facebook', href: 'https://facebook.com/' },
@@ -27,7 +27,7 @@ function Team() {
     {
       name: 'Rtn. Subham Das',
       role: 'Convenor',
-      image: 'Subham.jpg',
+      image: 'shubham.jpg',
       socials: [
         { type: 'instagram', href: 'https://instagram.com/' },
         { type: 'facebook', href: 'https://facebook.com/' },
@@ -47,11 +47,11 @@ function Team() {
     {
       name: 'Mr. Soumodip Adhikary',
       role: 'Deputy Convenor',
-      image: 'Soumodip.jpg',
+      image: 'soumodip.jpg',
       socials: [
-        { type: 'instagram', href: 'https://instagram.com/' },
-        { type: 'facebook', href: 'https://facebook.com/' },
-        { type: 'linkedin', href: 'https://linkedin.com/' }
+        { type: 'instagram', href: 'https://www.instagram.com/_rogue_vagabond_?igsh=ZHI4YnFneHRveTB5' },
+        { type: 'facebook', href: 'https://www.facebook.com/share/16UPRKyjVp/' },
+        { type: 'linkedin', href: 'https://www.linkedin.com/in/soumodip-adhikary-a432a722a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' }
       ]
     },
     {
@@ -59,9 +59,9 @@ function Team() {
       role: 'Treasurer',
       image: 'Roshnai.jpg',
       socials: [
-        { type: 'instagram', href: 'https://instagram.com/' },
-        { type: 'facebook', href: 'https://facebook.com/' },
-        { type: 'linkedin', href: 'https://linkedin.com/' }
+        { type: 'instagram', href: 'https://www.instagram.com/roshnai_sen?igsh=dmRlbXhka25uYzR5' },
+        { type: 'facebook', href: 'https://www.facebook.com/share/1CbHEGLheS/' },
+        { type: 'linkedin', href: 'https://www.linkedin.com/in/roshnai-sen-453368286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' }
       ]
     },
     {
@@ -69,9 +69,8 @@ function Team() {
       role: 'Accountant',
       image: 'Rajdeep.jpg',
       socials: [
-        { type: 'instagram', href: 'https://instagram.com/' },
-        { type: 'facebook', href: 'https://facebook.com/' },
-        { type: 'linkedin', href: 'https://linkedin.com/' }
+        { type: 'instagram', href: 'rajdeep__mondal' },
+        { type: 'linkedin', href: 'https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav' }
       ]
     }
   ];
@@ -95,9 +94,8 @@ function Team() {
           role: 'Member',
           image: 'Sohom.jpg',
           socials: [
-            { type: 'instagram', href: 'https://instagram.com/' },
-            { type: 'facebook', href: 'https://facebook.com/' },
-            { type: 'linkedin', href: 'https://linkedin.com/' }
+            { type: 'instagram', href: 'https://www.instagram.com/sohom_sen1?igsh=MTBlcDNpanpndXplaA==' },
+            { type: 'linkedin', href: 'https://www.linkedin.com/in/sohom-kumar-sen-4a4068218?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' }
           ]
         }
       ]
@@ -110,9 +108,8 @@ function Team() {
           role: 'Lead',
           image: 'Hrishikesh.jpg',
           socials: [
-            { type: 'instagram', href: 'https://instagram.com/' },
-            { type: 'facebook', href: 'https://facebook.com/' },
-            { type: 'linkedin', href: 'https://linkedin.com/' }
+            { type: 'instagram', href: 'https://www.instagram.com/its_hrishi_17?igsh=c3FkM2N6ODBlM2Ey' },
+            { type: 'linkedin', href: 'https://www.linkedin.com/in/hrisikesh-pan-5560a1288/' }
           ]
         },
         {
@@ -120,9 +117,9 @@ function Team() {
           role: 'Member',
           image: 'Jisita.png',
           socials: [
-            { type: 'instagram', href: 'https://instagram.com/' },
-            { type: 'facebook', href: 'https://facebook.com/' },
-            { type: 'linkedin', href: 'https://linkedin.com/' }
+            { type: 'instagram', href: 'https://www.instagram.com/ur.jisita.23?igsh=MThuNXJsem5ubXNiMA==' },
+            { type: 'facebook', href: 'https://www.facebook.com/share/17FtrMYLPZ/' },
+            { type: 'linkedin', href: 'https://www.linkedin.com/in/jisita-dhar-052208330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' }
           ]
         }
       ]
@@ -135,9 +132,8 @@ function Team() {
           role: 'Lead',
           image: 'Sattwik.jpg',
           socials: [
-            { type: 'instagram', href: 'https://instagram.com/' },
-            { type: 'facebook', href: 'https://facebook.com/' },
-            { type: 'linkedin', href: 'https://linkedin.com/' }
+            { type: 'instagram', href: 'https://www.instagram.com/skillupwithsattwik?igsh=YmRjbTF3emhoajZm' },
+            { type: 'linkedin', href: 'https://www.linkedin.com/in/sattwik-singha-roy-0a6333245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' }
           ]
         },
         {
@@ -145,9 +141,8 @@ function Team() {
           role: 'Deputy Lead',
           image: 'Arijit.jpg',
           socials: [
-            { type: 'instagram', href: 'https://instagram.com/' },
-            { type: 'facebook', href: 'https://facebook.com/' },
-            { type: 'linkedin', href: 'https://linkedin.com/' }
+            { type: 'instagram', href: 'https://www.instagram.com/arijitxd?igsh=MTFwb2ozMWNya3lnZA==' },
+            { type: 'linkedin', href: 'https://www.linkedin.com/in/arijit-majumder-615b35269?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' }
           ]
         },
         {
@@ -169,6 +164,15 @@ function Team() {
             { type: 'facebook', href: 'https://facebook.com/' },
             { type: 'linkedin', href: 'https://linkedin.com/' }
           ]
+        },
+        {
+          name: 'Anitej Mukhopadhyay ',
+          role: 'Member',
+          image: 'Anitej.png',
+          socials: [
+            { type: 'instagram', href: 'https://www.instagram.com/anitej.mukhopadhyay?igsh=NnRrYjU1NGprMG9p' },
+            { type: 'linkedin', href: 'https://www.linkedin.com/in/anitej-mukhopadhyay-43b144304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' }
+          ]
         }
       ]
     },
@@ -180,9 +184,9 @@ function Team() {
           role: 'Lead',
           image: 'Drisana.jpg',
           socials: [
-            { type: 'instagram', href: 'https://instagram.com/' },
-            { type: 'facebook', href: 'https://facebook.com/' },
-            { type: 'linkedin', href: 'https://linkedin.com/' }
+            { type: 'instagram', href: 'https://www.instagram.com/drisana_bh_?igsh=MXdvMmh2MWRyaWhiNw==' },
+            { type: 'facebook', href: 'https://www.facebook.com/profile.php?id=100088959632482&mibextid=ZbWKwL' },
+            { type: 'linkedin', href: 'https://www.linkedin.com/in/drisana-bhattacharyya-00a122268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' }
           ]
         },
         {
@@ -190,9 +194,7 @@ function Team() {
           role: 'Member',
           image: 'Medha.png',
           socials: [
-            { type: 'instagram', href: 'https://instagram.com/' },
-            { type: 'facebook', href: 'https://facebook.com/' },
-            { type: 'linkedin', href: 'https://linkedin.com/' }
+            { type: 'instagram', href: 'https://www.instagram.com/c.a.r.e.l.e.s.s_w.h.i.s.p.e.r/profilecard/?igsh=MWgzeXlpaHJuYjNkZQ==' }
           ]
         },
         {
@@ -200,9 +202,7 @@ function Team() {
           role: 'Member',
           image: 'Sristi.JPG',
           socials: [
-            { type: 'instagram', href: 'https://instagram.com/' },
-            { type: 'facebook', href: 'https://facebook.com/' },
-            { type: 'linkedin', href: 'https://linkedin.com/' }
+            { type: 'instagram', href: 'iti_raai' }
           ]
         }
       ]
