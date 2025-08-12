@@ -137,6 +137,14 @@ function Team() {
           ]
         },
         {
+          name: 'Snigdha Singha',
+          role: 'Member',
+          image: 'Snigdha.jpg',
+          socials: [
+            { type: 'instagram', href: 'https://www.instagram.com/yours_mee.mee?igsh=MTFxcjJ4NnR4bXpnNA==' }
+          ]
+        },
+        {
           name: 'Arijit Majumder',
           role: 'Deputy Lead',
           image: 'Arijit.jpg',
@@ -228,6 +236,21 @@ function Team() {
             { type: 'instagram', href: 'https://instagram.com/' },
             { type: 'facebook', href: 'https://facebook.com/' },
             { type: 'linkedin', href: 'https://linkedin.com/' }
+          ]
+        }
+      ]
+    },
+    {
+      title: 'Photography',
+      members: [
+        {
+          name: 'Sunniddh Mukherjee',
+          role: 'Lead',
+          image: 'Sunniddh.jpg',
+          socials: [
+            { type: 'instagram', href: 'https://www.instagram.com/sanniddhcaptures?igsh=MTdwN3Nwb2RnbWN4Nw==' },
+            { type: 'facebook', href: 'https://www.facebook.com/share/1PQuYFUW1R/' },
+            { type: 'linkedin', href: 'https://www.linkedin.com/in/sanniddh-mukherjee-428016341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' }
           ]
         }
       ]
