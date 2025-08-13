@@ -137,20 +137,20 @@ function Team() {
           ]
         },
         {
-          name: 'Snigdha Singha',
-          role: 'Member',
-          image: 'Snigdha.jpg',
-          socials: [
-            { type: 'instagram', href: 'https://www.instagram.com/yours_mee.mee?igsh=MTFxcjJ4NnR4bXpnNA==' }
-          ]
-        },
-        {
           name: 'Arijit Majumder',
           role: 'Deputy Lead',
           image: 'Arijit.jpg',
           socials: [
             { type: 'instagram', href: 'https://www.instagram.com/arijitxd?igsh=MTFwb2ozMWNya3lnZA==' },
             { type: 'linkedin', href: 'https://www.linkedin.com/in/arijit-majumder-615b35269?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' }
+          ]
+        },
+        {
+          name: 'Snigdha Singha',
+          role: 'Member',
+          image: 'Snigdha.jpg',
+          socials: [
+            { type: 'instagram', href: 'https://www.instagram.com/yours_mee.mee?igsh=MTFxcjJ4NnR4bXpnNA==' }
           ]
         },
         {
